@@ -1,0 +1,43 @@
+body{
+    background-image: url("burger-hero.jpg");
+}
+
+.header{
+    background-color: red;
+}
+
+.logo{
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.motto{
+    text-align: center;
+}
+
+.about{
+    background-color: yellow;
+}
+
+.info{
+    color: brown;
+}
+
+.promo{
+    color: red;
+    text-align: center;
+}
+
+.submenu{
+    text-decoration: underline;
+}
+
+p{
+    : 10px;
+
+}
