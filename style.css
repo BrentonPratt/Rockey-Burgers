@@ -1,5 +1,5 @@
 body{
-    background-image: url("burger-hero.jpg");
+    background-image: url("Images/burger-hero.jpg");
 }
 
 .header{
@@ -8,6 +8,7 @@ body{
 
 .logo{
     height: 100px;
+
 }
 
 .nav{
@@ -41,3 +42,30 @@ p{
     : 10px;
 
 }
+
+form {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type=text]:valid{
+    border: green;
+}
+
+input[type=text]:invalid{
+    border: red;
+}
+
+input:not([type=checkbox]):not([type=radio],select,textarea){
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
