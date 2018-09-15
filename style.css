@@ -133,7 +133,6 @@ table, td, th{
 
 .pageTitle{
     font-size: 3em;
-    margin: 0;
 }
 
 .itemContainer{
@@ -207,6 +206,10 @@ input:not([type=checkbox]):not([type=radio],select,textarea){
     color: #FFC04B;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#expensive, #beef{
+    display: none;
 }
 
 @media screen and (max-width: 800px){
