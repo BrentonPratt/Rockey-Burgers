@@ -1,5 +1,8 @@
 html, body{
     background-image: url("Images/burger-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #3b8200;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -7,7 +10,7 @@ html, body{
 }
 
 .header, .nav h1{
-    background-color: #0F3D76;
+    background-color: #B07357;
 }
 
 .logo{
@@ -26,7 +29,7 @@ html, body{
 }
 
 .nav h1, .motto{
-    color: #AC7478;
+    color: #FFC04B;
     font-size: 2em;
     transition: background-color .3s;
 }
@@ -56,34 +59,50 @@ html, body{
 }
 
 .about{
-    background-color: #112846;
-    color: #D8684E;
+    background-color: #FFC04B;
+    color: #FF002F;
 }
 
-.info{
-    color: brown;
+.info .promo{
+    color: #FF002F;
 }
 
-.promo{
-    color: red;
+.menuContainer{
+    display: flex;
+    padding: 20px;
 }
 
 .foodMenu{
-    background-color: #D8684E;
+    background-color: #FFC04B;
+    color: #FF002F;
 }
 
 .pageTitle{
     font-size: 3em;
 }
 
-.subMenu{
+.itemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subMenu, .toppings h2{
     text-decoration: underline;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.toppingList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .myform {
     border-radius: 5px;
-    background-color: #91633B;
-    padding: 0 20px 5px 20px;
+    background-color: #B07357;
+    padding: 0 20px 0 20px;
     width: 25%;
     margin: auto;
     text-align: left;
@@ -100,6 +119,11 @@ html, body{
 .jobForm{
     padding: 5px;
     font-size: 12px;
+}
+
+#availability{
+    display: flex;
+    flex-direction: column;
 }
 
 input:required:valid{
