@@ -67,6 +67,24 @@ html, body{
     color: #FF002F;
 }
 
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #B07357;
+    border-radius: 10px;
+}
+
+iframe{
+    margin: auto;
+    padding: 20px;
+}
+
+table, td, th{
+    border: 1px solid #FFC04B;
+    text-align: center;
+}
+
 .menuContainer{
     display: flex;
     padding: 20px;
