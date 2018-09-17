@@ -135,6 +135,10 @@ table, td, th{
     font-size: 3em;
 }
 
+.menuTitle{
+    border: 1px solid #FFC04B;
+}
+
 .itemContainer{
     display: flex;
     flex-wrap: wrap;
