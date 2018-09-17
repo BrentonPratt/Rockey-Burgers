@@ -1,8 +1,6 @@
 html, body{
-    background-image: url("Images/burger-hero.jpg");
-    background-repeat: no-repeat;
+    background: url("Images/burger-hero.jpg") no-repeat #3b8200;
     background-size: auto;
-    background-color: #3b8200;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -210,6 +208,14 @@ input:not([type=checkbox]):not([type=radio],select,textarea){
     color: #FFC04B;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.question{
+    text-align: center;
+}
+
+.answer{
+    text-align: justify;
 }
 
 #expensive, #beef{
