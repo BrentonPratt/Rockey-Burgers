@@ -1,11 +1,13 @@
 html, body{
-    background: url("Images/burger-hero.jpg") no-repeat #3b8200;
-    background-size: auto;
+    background: url("Images/burger-hero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-
 }
 
 .header, .nav h1{
@@ -23,12 +25,12 @@ html, body{
     justify-content: space-around;
 }
 
-.nav h1{
+.nav h2{
     padding: 20px;
     margin: 0;
 }
 
-.nav h1, .motto{
+.nav h2, .motto{
     color: #FFC04B;
     font-size: 2em;
     transition: background-color .3s;
@@ -38,13 +40,17 @@ html, body{
     text-decoration: none;
 }
 
-.nav h1:hover{
+.nav h2:hover{
     background-color: white;
 }
 
 .video{
     display: flex;
     justify-content: center;
+}
+
+.video iframe{
+    border: none;
 }
 
 .subscribe{
@@ -102,11 +108,24 @@ html, body{
 
 .locations{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #3b8200;
-    border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.locations h1{
+    background-color: #B07357;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    color: #FFC04B;
+}
+
+.locationText{
+    background-color: #B07357;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 iframe{
